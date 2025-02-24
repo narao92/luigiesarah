@@ -74,12 +74,13 @@ h2 {
 }
 
 /* Icone sotto la busta */
+/* Container per le icone */
 .icons-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 30px;
+    display: flex;               /* Flexbox per le icone */
+    justify-content: center;     /* Centra orizzontalmente */
+    align-items: center;         /* Centra verticalmente */
+    gap: 20px;                   /* Spazio tra le icone */
+    flex-wrap: wrap;             /* Aggiungi questa riga per fare il wrapping se necessario */
 }
 
 .icons-container img {
