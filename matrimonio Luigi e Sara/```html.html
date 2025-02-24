@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La tua pagina</title>
+  <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+  <div class="container">
+    <div class="flower-border"></div>
+    <h1>Matrimonio Luigi e Sarah</h1>
+    <!-- Icona della busta -->
+    <div class="icon-envelope" onclick="openVideo()">✉️</div>
+    <h2>Clicca per aprire il video</h2>
+
+    <!-- Video nascosto inizialmente -->
+    <div class="video-container" id="videoContainer" style="display: none;">
+      <video controls id="videoPlayer" width="100%" height="auto">
+        <source src="luigi.mp4" type="video/mp4">
+        Il tuo browser non supporta il formato video.
+      </video>
+    </div>
+
+    <div class="icons-container">
+      <img src="chiesa.png" alt="Chiesa">
+      <img src="piatto.png" alt="Cibo">
+      <img src="bus.png" alt="Bus">
+    </div>
+  </div>
+
+  <script>
+// Funzione per aprire il video quando si clicca sull'icona della busta
+function openVideo() {
+      // Nascondere l'icona della busta e il testo
+      document.querySelector('.icon-envelope').style.display = 'none';
+      document.querySelector('h2').style.display = 'none';
+
+      // Mostrare il video
+      document.getElementById('videoContainer').style.display = 'block';
+      
+      // Riproduce il video automaticamente
+      document.getElementById('videoPlayer').play();
+    }
+  </script>
+</body>
+</html>
