@@ -74,28 +74,34 @@ h2 {
 }
 
 /* Icone sotto la busta */
-/* Container per le icone */
-.icons-container {
-    display: flex;               /* Flexbox per le icone */
-    justify-content: space-between;     /* Centra orizzontalmente */
-    align-items: center;         /* Centra verticalmente */
-  width: 100%;  
-  gap: 100px;                   /* Spazio tra le icone */
-    flex-wrap: wrap;             /* Aggiungi questa riga per fare il wrapping se necessario */
+[22:04, 24/2/2025] Chat Gpt: .icons-container {
+    display: flex;                     /* Usa Flexbox */
+    justify-content: space-between;    /* Allinea le icone a sinistra, al centro e a destra */
+    align-items: center;               /* Allinea le icone verticalmente al centro */
+    width: 100%;                       /* Larghezza completa */
+    max-width: 500px;                  /* Imposta una larghezza massima per il layout */
+    margin: 0 auto;                    /* Centra il contenitore orizzontalmente */
 }
 
-.icons-container img {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+/* Icone */
+.icon {
+    width: 50px;                       /* Imposta la larghezza delle icone */
+    height: 50px;                      /* Imposta l'altezza delle icone */
+[22:04, 24/2/2025] Chat Gpt: object-fit: contain;               /* Mantieni le proporzioni corrette dell'immagine */
+    transition: transform 0.3s ease;   /* Aggiungi un effetto di transizione */
 }
+
+/* Effetto hover per ingrandire le icone */
+.icon:hover {
+    transform: scale(1.2);             /* Aumenta la dimensione delle icone al passaggio del mouse */
+}
+
 /* Media query per dispositivi mobili */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .icons-container {
-        flex-direction: row;   /* Assicura che le icone siano disposte orizzontalmente */
-        justify-content: space-around;
+        justify-content: space-around;  /* Cambia l'allineamento per i dispositivi mobili */
     }
+}
 
 
 /* Stile per il video */
