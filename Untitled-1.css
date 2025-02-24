@@ -94,7 +94,7 @@ h2 {
 @media screen and (max-width: 768px) {
     .icons-container {
         flex-direction: row;   /* Assicura che le icone siano disposte orizzontalmente */
-        justify-content: center;
+        justify-content: space-around;
     }
 .icons-container img:hover {
   transform: scale(1.1);
