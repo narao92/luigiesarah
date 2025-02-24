@@ -79,7 +79,7 @@ h2 {
     display: flex;               /* Flexbox per le icone */
     justify-content: center;     /* Centra orizzontalmente */
     align-items: center;         /* Centra verticalmente */
-    gap: 20px;                   /* Spazio tra le icone */
+    gap: 100px;                   /* Spazio tra le icone */
     flex-wrap: wrap;             /* Aggiungi questa riga per fare il wrapping se necessario */
 }
 
