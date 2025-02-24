@@ -96,9 +96,7 @@ h2 {
         flex-direction: row;   /* Assicura che le icone siano disposte orizzontalmente */
         justify-content: space-around;
     }
-.icons-container img:hover {
-  transform: scale(1.1);
-}
+
 
 /* Stile per il video */
 .video-container {
