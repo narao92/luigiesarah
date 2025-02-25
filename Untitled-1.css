@@ -59,13 +59,11 @@ h2 {
 }
 
 /* Stile per l'icona della busta e il suo effetto */
-.icon-envelope {
-  font-size: 50px;
-  margin-bottom: 20px;
-  color: #f1a85a;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+.busta-img {
+  width: 50px;  /* Imposta la larghezza desiderata */
+  height: auto; /* Mantiene le proporzioni corrette */
 }
+
 
 .icon-envelope:hover {
   transform: rotate(10deg);
