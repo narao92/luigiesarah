@@ -40,6 +40,12 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none; /* Rimuove la sottolineatura */
+  color: #D9B28C; /* Il colore beige che preferisci */
+}
+
+
 /* Testo del titolo */
 h1 {
   font-family:'Zapfino', sans-serif;
