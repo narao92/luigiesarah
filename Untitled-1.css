@@ -41,8 +41,8 @@ h1 {
   font-size: 2em;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #F5F5DC;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  color: #F5F5DC; /* Beige */
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6); /* Ombra più morbida */
 }
 
 h2 {
