@@ -22,6 +22,11 @@ body {
   text-align: center;
   padding: 20px;
 }
+@font-face {
+    font-family: 'Zapfino';
+    src: url('assets/fonts/zapfino.woff2') format('woff2'),
+         url('assets/fonts/zapfino.woff') format('woff');
+}
 
 /* Contenitore principale */
 .container {
