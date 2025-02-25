@@ -60,7 +60,7 @@ h2 {
 
 /* Stile per l'icona della busta e il suo effetto */
 .busta-img {
-  width: 10px;  /* Imposta la larghezza desiderata */
+  width: 5px;  /* Imposta la larghezza desiderata */
   height: auto; /* Mantiene le proporzioni corrette */
 }
 
