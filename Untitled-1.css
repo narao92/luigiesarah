@@ -93,7 +93,7 @@ h2 {
 
 /* Effetto hover per ingrandire le icone */
 .icon:hover {
-    transform: scale(1.2);             /* Aumenta la dimensione delle icone al passaggio del mouse */
+    transform: scale(1.3);             /* Aumenta la dimensione delle icone al passaggio del mouse */
 }
 
 /* Media query per dispositivi mobili */
