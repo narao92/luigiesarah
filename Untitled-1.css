@@ -85,8 +85,8 @@ h2 {
 
 /* Icone */
 .icon {
-    width: 50px;                       /* Imposta la larghezza delle icone */
-    height: 50px;                      /* Imposta l'altezza delle icone */
+    width: 150px;                       /* Imposta la larghezza delle icone */
+    height: 150px;                      /* Imposta l'altezza delle icone */
 [22:04, 24/2/2025] Chat Gpt: object-fit: contain;               /* Mantieni le proporzioni corrette dell'immagine */
     transition: transform 0.3s ease;   /* Aggiungi un effetto di transizione */
 }
