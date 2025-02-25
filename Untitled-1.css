@@ -60,7 +60,8 @@ h2 {
 
 /* Stile per l'icona della busta e il suo effetto */
 .icon-envelope {
-  font-size: 50em;
+  
+  font-size: 50px;
   margin-bottom: 20px;
   color: #f1a85a;
   cursor: pointer;
