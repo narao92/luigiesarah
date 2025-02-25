@@ -43,7 +43,7 @@ h1 {
   font-weight: bold;
   color: #F5F5DC; /* Beige */
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6); /* Ombra più morbida */
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', sans-serif;
 }
 
 h2 {
