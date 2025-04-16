@@ -117,7 +117,7 @@ h2 {
     }
 }
 
-.conferma a{
+.conferma, a{
      width:100%;
      height:auto;
      padding:5px;
@@ -164,7 +164,7 @@ h2 {
     width: 30px;
     height: 30px;
   }
-  .conferma a{
+  .conferma, a {
     width:100%;
     height:auto;
     padding-bottom:10px;
