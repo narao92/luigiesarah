@@ -164,4 +164,9 @@ h2 {
     width: 30px;
     height: 30px;
   }
+  .conferma a{
+    width:100%;
+    height:auto;
+    padding-bottom:10px;
+  }
 }
