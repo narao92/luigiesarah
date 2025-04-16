@@ -95,6 +95,7 @@ h2 {
     width: 100%;                       /* Larghezza completa */
     max-width: 500px;                  /* Imposta una larghezza massima per il layout */
     margin: 0 auto;                    /* Centra il contenitore orizzontalmente */
+    padding-top:5px;
 }
 
 /* Icone */
